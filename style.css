@@ -1,0 +1,219 @@
+@font-face {
+    font-family: 'gg semi';
+    src: url('font/ggsans-Semibold.ttf');
+    
+}
+
+@font-face {
+    font-family: 'gg normal';
+    src: url('font/ggsans-Normal.ttf');
+}
+
+
+@font-face {
+    font-family: 'gg bolde';
+    src: url('font/ggsans-Bold.ttf');
+}
+
+@font-face {
+    font-family: 'gg medium';
+    src: url('font/ggsans-Medium.ttf');
+}
+
+
+body{
+
+    background-image: url('imagens/discord-background.png');
+    background-size: 99%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x:hidden;
+    overflow-y:hidden;
+    
+}
+
+div.box{
+    position: absolute;
+    width: 800px;
+    height: 435px;
+    background-color: #313338;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 4px;
+    
+    box-shadow: 1px 0px 6px rgba(0, 0, 0, 0.151);
+}
+
+div.box > h1{
+    font-family: 'gg semi', sans-serif;
+    position: relative;
+    color: white;
+    font-size: 1.6em;
+    top: 30px;
+    right: 140px;
+    
+}
+
+div.box > p{
+    position: relative;
+    font-family: 'gg normal', sans-serif;
+    color: #B8B9BF;
+    top: 23px;
+    right: 146px;
+    
+    
+}
+
+
+h2.email-user{
+    position: relative;
+    font-family: 'gg bolde', sans-serif;
+    color: #B8B9BF;
+    font-size: 12px;
+    top: 25px;
+    right: 257px;
+}
+
+div > h2 > strong{
+    color: #F23F42;
+    font-size: 12px;
+    
+}
+
+input.usuario{
+    position: relative;
+    background-color: #1c1e20;
+    padding: 12px;
+    width: 42%;
+    border: none;
+    top: 21px;
+    right: 183px;
+    border-radius: 3px;
+    outline: none;
+    color: white;
+}
+
+input.usuario:hover{
+    
+    outline: none;
+}
+
+h2.senha{
+    position: absolute;
+    right: 70px;
+}
+
+h2.decoration-senha{
+    position: relative;
+    font-family: 'gg bolde', sans-serif;
+    color: #B8B9BF;
+    font-size: 12px;
+    top: 37px;
+    right: 337px;
+
+}
+
+input.password{
+    position: relative;
+    background-color: #1c1e20;
+    padding: 12px;
+    
+    width: 43%;
+    border: none;
+    top: 35px;
+    right: 183px;
+    border-radius: 3px;
+    outline: none;
+    color: white;
+}
+
+
+
+div.esqueceu-senha{
+    position: relative;
+    top: 38px;
+    right: 300px;
+    
+    
+}
+
+div.esqueceu-senha > a{
+    color: #00A8FC;
+    font-family: 'gg medium';
+    text-decoration: none;
+    font-size: 14px;
+}
+
+div.esqueceu-senha > a:hover{
+    text-decoration: underline;
+}
+
+button{
+    position: relative;
+    padding: 12px 25px 12px 20px;
+    
+    width: 50%;
+    border: none;
+    border-radius: 3px;
+    background-color: #5865F2;
+    color: white;
+    font-family: 'gg medium';
+    font-size: 16px;
+    top: 55px;
+    right: 162px;
+}
+
+button:hover{
+    background-color:#4752C4;
+    cursor: pointer;
+}
+
+div.box  p#criar-conta{
+    position: relative;
+    font-family: 'gg normal';
+    color: #989AA2;
+    font-size: 14px;
+    top: 52px;
+    right: 250px;
+    
+
+}
+
+#link-conta{
+    color: #00A8FC;
+    font-family: 'gg medium';
+    text-decoration: none;
+    font-size: 14px;
+}
+
+#link-conta:hover{
+    text-decoration: underline;
+}
+
+div.qr-code-img{
+    position: relative;
+    bottom: 295px;
+    left: 248px;
+    
+}
+
+div.h1-qr-code h1{
+    position: absolute;
+    font-family: 'gg semi', sans-serif;
+    position: relative;
+    color: white;
+    font-size: 1.6em;
+    bottom: 285px;
+    left: 235px;
+}
+
+div.p-qr-code{
+    position: relative;
+    bottom: 289px;
+    left: 235px;
+    font-family: 'gg normal';
+    color: #B8B9BF;
+    font-size: 17px;
+}
